@@ -1,0 +1,46 @@
+;; Copyright © 2020 Atomist, Inc.
+;;
+;; Licensed under the Apache License, Version 2.0 (the "License");
+;; you may not use this file except in compliance with the License.
+;; You may obtain a copy of the License at
+;;
+;;     http://www.apache.org/licenses/LICENSE-2.0
+;;
+;; Unless required by applicable law or agreed to in writing, software
+;; distributed under the License is distributed on an "AS IS" BASIS,
+;; WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+;; See the License for the specific language governing permissions and
+;; limitations under the License.
+
+{:description "Keep your project free from confusing dependencies",
+ :category ["DEPENDENCIES"],
+ :license "Apache-2.0",
+ :resourceProviders
+ [{:name "github",
+   :description "GitHub",
+   :typeName "GitHubAppResourceProvider",
+   :minRequired 1,
+   :maxAllowed 1}],
+ :displayName "Dependency Tree Skill",
+ :name "deps-tree",
+ :author "Atomist",
+ :dispatchStyle "single",
+ :iconUrl "https://images.atomist.com/rug/atomist.png",
+ :homepageUrl "https://github.com/atomist-skills/deps-tree-skill",
+ :parameters
+ [{:fileFilter
+   {:name "paths-to-index"
+    :description "Paths to index"
+    :visibility "hidden"
+    :defaultValue ["package.json"]
+    :required false}}
+  {:repoFilter
+   {:description "Which repos/orgs to look at",
+    :displayName "Repository Scope",
+    :name "scope",
+    :required false}}],
+ :namespace "atomist",
+ :artifacts
+ {:docker
+  [{:name "skill",
+    :image "gcr.io/atomist-container-skills/lein-deps-tree-skill"}]}}

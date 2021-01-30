@@ -1,0 +1,10 @@
+.idea/
+.atomist/
+node_modules/
+*.iml
+.cpcache
+.nrepl-port
+.shadow-cljs/
+classes/
+index.js
+.clj-kondo/

@@ -1,0 +1,12 @@
+[:find (pull ?commit [:git.commit/sha
+                      {:git.commit/repo [:git.repo/source-id
+                                         :git.repo/name
+                                         :git.provider/url
+                                         {:git.repo/org [:github.org/installation-token
+                                                         :git.org/name
+                                                         :git.provider/url]}]}])
+ :in $ $before-db %
+ :where
+ (tx-push-with-content [] false ["package.json"] [] ?commit)
+ [?commit :git.commit/repo ?repo]
+ ]
