@@ -98,6 +98,8 @@
           :else
           (<! (handler (assoc request :atomist/status {:code 1 :reason "no package.json file" :visibility :hidden}))))))))
 
+(enable-console-print!)
+
 (defn ^:export handler
   "no arguments because this handler runs in a container that should fulfill the Atomist container contract
    the context is extract fro the environment using the container/mw-make-container-request middleware"

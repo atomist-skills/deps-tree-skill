@@ -1,9 +1,9 @@
-FROM gcr.io/atomist-container-skills/clojure-base:0.0.1
+FROM gcr.io/atomist-container-skills/clojure-base:0.0.1 AS build
 
 WORKDIR /usr/src
 
-COPY deps.edn shadow-cljs.edn /usr/src/app/
-COPY package*.json /usr/src/app/
+COPY deps.edn shadow-cljs.edn /usr/src/
+COPY package*.json /usr/src/
 COPY src /usr/src/src
 
 RUN npm ci --no-optional && \
