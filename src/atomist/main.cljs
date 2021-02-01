@@ -180,11 +180,11 @@
                    (api/clone-ref)
                    (create-ref-from-event)
                    ((fn [handler]
-                            (fn [request]
-                              (go (<! (handler
-                                       (assoc-in
-                                        request [:subscription :result 0 0 :git.commit/repo :git.repo/org :github.org/installation-token]
-                                        (:token request))))))))
+                      (fn [request]
+                        (go (<! (handler
+                                 (assoc-in
+                                  request [:subscription :result 0 0 :git.commit/repo :git.repo/org :github.org/installation-token]
+                                  (:token request))))))))
                    (api/extract-github-token)
                    (api/status))
                event))
