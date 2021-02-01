@@ -7,6 +7,6 @@
                                                          :git.provider/url]}]}])
  :in $ $before-db %
  :where
- (tx-push-with-content [] false ["package.json"] [] ?commit)
+ (tx-push-with-content [] true ["package.json"] [] ?commit)
  [?commit :git.commit/repo ?repo]
  ]

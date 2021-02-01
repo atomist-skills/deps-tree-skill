@@ -43,4 +43,4 @@
  :artifacts
  {:docker
   [{:name "skill",
-    :image "gcr.io/atomist-container-skills/lein-deps-tree-skill"}]}}
+    :image "gcr.io/atomist-container-skills/deps-tree-skill"}]}}
