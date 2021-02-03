@@ -33,4 +33,13 @@
                :db/valueType :db.type/ref
                :db/cardinality :db.cardinality/many}
 
-              ]}
+              {:db/ident :npm.package/dependency
+               :db.entity/attrs [:npm.package.dependency/from :npm.package.dependency/to]}
+
+              {:db/ident :npm.package.dependency/from
+               :db/valueType :db.type/ref
+               :db/cardinality :db.cardinality/one}
+
+              {:db/ident :npm.package.dependency/to
+               :db/valueType :db.type/ref
+               :db/cardinality :db.cardinality/one}]}
