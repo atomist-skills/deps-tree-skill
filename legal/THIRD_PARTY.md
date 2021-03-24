@@ -31,8 +31,8 @@ Apache License 2.0 - [http://www.apache.org/licenses/LICENSE-2.0](http://www.apa
 | `@google-cloud/projectify`            | `2.0.1`  | Google Inc.           | [https://github.com/googleapis/nodejs-projectify](https://github.com/googleapis/nodejs-projectify)                               |
 | `@google-cloud/promisify`             | `2.0.3`  | Google Inc.           | [https://github.com/googleapis/nodejs-promisify](https://github.com/googleapis/nodejs-promisify)                                 |
 | `@google-cloud/pubsub`                | `2.10.0` | Google Inc.           | [https://github.com/googleapis/nodejs-pubsub](https://github.com/googleapis/nodejs-pubsub)                                       |
-| `@google-cloud/storage`               | `5.8.1`  | Google Inc.           | [https://github.com/googleapis/nodejs-storage](https://github.com/googleapis/nodejs-storage)                                     |
-| `@grpc/grpc-js`                       | `1.2.11` | Google Inc.           | [https://github.com/grpc/grpc-node/tree/master/packages/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) |
+| `@google-cloud/storage`               | `5.8.2`  | Google Inc.           | [https://github.com/googleapis/nodejs-storage](https://github.com/googleapis/nodejs-storage)                                     |
+| `@grpc/grpc-js`                       | `1.2.12` | Google Inc.           | [https://github.com/grpc/grpc-node/tree/master/packages/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) |
 | `@grpc/proto-loader`                  | `0.5.6`  | Google Inc.           | [https://github.com/grpc/grpc-node](https://github.com/grpc/grpc-node)                                                           |
 | `@opencensus/core`                    | `0.0.22` | Google Inc.           | [https://github.com/census-instrumentation/opencensus-node](https://github.com/census-instrumentation/opencensus-node)           |
 | `@opencensus/propagation-stackdriver` | `0.0.22` | OpenCensus Authors    | [https://github.com/census-instrumentation/opencensus-node](https://github.com/census-instrumentation/opencensus-node)           |
@@ -48,7 +48,7 @@ Apache License 2.0 - [http://www.apache.org/licenses/LICENSE-2.0](http://www.apa
 | `gaxios`                              | `4.2.0`  | Google, LLC           | [https://github.com/googleapis/gaxios](https://github.com/googleapis/gaxios)                                                     |
 | `gcp-metadata`                        | `4.2.1`  | Stephen Sawchuk       | [https://github.com/googleapis/gcp-metadata](https://github.com/googleapis/gcp-metadata)                                         |
 | `google-auth-library`                 | `6.1.6`  | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
-| `google-auth-library`                 | `7.0.2`  | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
+| `google-auth-library`                 | `7.0.3`  | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
 | `google-gax`                          | `2.11.2` | Google API Authors    | [https://github.com/googleapis/gax-nodejs](https://github.com/googleapis/gax-nodejs)                                             |
 | `hex2dec`                             | `1.1.2`  |                       | [https://github.com/donmccurdy/hex2dec](https://github.com/donmccurdy/hex2dec)                                                   |
 | `long`                                | `4.0.0`  | Daniel Wirtz          | [https://github.com/dcodeIO/long.js](https://github.com/dcodeIO/long.js)                                                         |
@@ -124,7 +124,7 @@ ISC License - [https://www.isc.org/downloads/software-support-policy/isc-license
 | `rimraf`            | `3.0.2`  | Isaac Z. Schlueter | [https://github.com/isaacs/rimraf](https://github.com/isaacs/rimraf)                     |
 | `semver`            | `5.7.1`  |                    | [https://github.com/npm/node-semver](https://github.com/npm/node-semver)                 |
 | `semver`            | `6.3.0`  |                    | [https://github.com/npm/node-semver](https://github.com/npm/node-semver)                 |
-| `semver`            | `7.3.4`  |                    | [https://github.com/npm/node-semver](https://github.com/npm/node-semver)                 |
+| `semver`            | `7.3.5`  |                    | [https://github.com/npm/node-semver](https://github.com/npm/node-semver)                 |
 | `signal-exit`       | `3.0.3`  | Ben Coe            | [https://github.com/tapjs/signal-exit](https://github.com/tapjs/signal-exit)             |
 | `wrappy`            | `1.0.2`  | Isaac Z. Schlueter | [https://github.com/npm/wrappy](https://github.com/npm/wrappy)                           |
 | `write-file-atomic` | `3.0.3`  | Rebecca Turner     | [https://github.com/npm/write-file-atomic](https://github.com/npm/write-file-atomic)     |
@@ -211,7 +211,7 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 | `picomatch`              | `2.2.2`    | Jon Schlinkert      | [https://github.com/micromatch/picomatch](https://github.com/micromatch/picomatch)                                                             |
 | `pump`                   | `3.0.0`    | Mathias Buus Madsen | [https://github.com/mafintosh/pump](https://github.com/mafintosh/pump)                                                                         |
 | `pumpify`                | `2.0.1`    | Mathias Buus        | [https://github.com/mafintosh/pumpify](https://github.com/mafintosh/pumpify)                                                                   |
-| `queue-microtask`        | `1.2.2`    | Feross Aboukhadijeh | [https://github.com/feross/queue-microtask](https://github.com/feross/queue-microtask)                                                         |
+| `queue-microtask`        | `1.2.3`    | Feross Aboukhadijeh | [https://github.com/feross/queue-microtask](https://github.com/feross/queue-microtask)                                                         |
 | `readable-stream`        | `3.6.0`    |                     | [https://github.com/nodejs/readable-stream](https://github.com/nodejs/readable-stream)                                                         |
 | `retry-request`          | `4.1.3`    | Stephen Sawchuk     | [https://github.com/stephenplusplus/retry-request](https://github.com/stephenplusplus/retry-request)                                           |
 | `retry`                  | `0.12.0`   | Tim Koschützki      | [https://github.com/tim-kos/node-retry](https://github.com/tim-kos/node-retry)                                                                 |
@@ -246,7 +246,7 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 
 | Name                | Version  | Publisher       | Repository |
 | ------------------- | -------- | --------------- | ---------- |
-| `@atomist/api-cljs` | `0.5.34` | jim@atomist.com |            |
+| `@atomist/api-cljs` | `0.5.35` | jim@atomist.com |            |
 
 ## Contact
 
