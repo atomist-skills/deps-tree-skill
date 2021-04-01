@@ -1,4 +1,4 @@
-FROM gcr.io/atomist-container-skills/clojure-base:0.0.1 AS build
+FROM gcr.io/atomist-container-skills/clojure-base:0.0.1@sha256:cd6e9de3de5b121dc7aef0cb3f6a1b58423049ce6db08fd7161cac7b39722f55 AS build
 
 WORKDIR /usr/src
 
@@ -10,7 +10,7 @@ RUN npm ci --no-optional && \
     npm run build && \
     rm -rf node_modules .git
 
-FROM ubuntu:focal
+FROM ubuntu:focal@sha256:a15789d24a386e7487a407274b80095c329f89b1f830e8ac6a9323aa61803964
 
 # tools
 RUN apt-get update && apt-get install -y \
