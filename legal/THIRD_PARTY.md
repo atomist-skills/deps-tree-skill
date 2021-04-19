@@ -8,7 +8,7 @@ This page details all runtime dependencies of `@atomist/deps-tree-skill`.
 
 | License                       | Count |
 | ----------------------------- | ----- |
-| [Apache-2.0](#apache-20)      | 30    |
+| [Apache-2.0](#apache-20)      | 26    |
 | [BSD-2-Clause](#bsd-2-clause) | 6     |
 | [BSD-3-Clause](#bsd-3-clause) | 14    |
 | [CC0-1.0](#cc0-10)            | 1     |
@@ -30,25 +30,21 @@ Apache License 2.0 - [http://www.apache.org/licenses/LICENSE-2.0](http://www.apa
 | `@google-cloud/precise-date`          | `2.0.3`  | Google Inc.           | [https://github.com/googleapis/nodejs-precise-date](https://github.com/googleapis/nodejs-precise-date)                           |
 | `@google-cloud/projectify`            | `2.0.1`  | Google Inc.           | [https://github.com/googleapis/nodejs-projectify](https://github.com/googleapis/nodejs-projectify)                               |
 | `@google-cloud/promisify`             | `2.0.3`  | Google Inc.           | [https://github.com/googleapis/nodejs-promisify](https://github.com/googleapis/nodejs-promisify)                                 |
-| `@google-cloud/pubsub`                | `2.10.0` | Google Inc.           | [https://github.com/googleapis/nodejs-pubsub](https://github.com/googleapis/nodejs-pubsub)                                       |
+| `@google-cloud/pubsub`                | `2.11.0` | Google Inc.           | [https://github.com/googleapis/nodejs-pubsub](https://github.com/googleapis/nodejs-pubsub)                                       |
 | `@google-cloud/storage`               | `5.8.3`  | Google Inc.           | [https://github.com/googleapis/nodejs-storage](https://github.com/googleapis/nodejs-storage)                                     |
 | `@grpc/grpc-js`                       | `1.2.12` | Google Inc.           | [https://github.com/grpc/grpc-node/tree/master/packages/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) |
 | `@grpc/proto-loader`                  | `0.5.6`  | Google Inc.           | [https://github.com/grpc/grpc-node](https://github.com/grpc/grpc-node)                                                           |
 | `@opencensus/core`                    | `0.0.22` | Google Inc.           | [https://github.com/census-instrumentation/opencensus-node](https://github.com/census-instrumentation/opencensus-node)           |
 | `@opencensus/propagation-stackdriver` | `0.0.22` | OpenCensus Authors    | [https://github.com/census-instrumentation/opencensus-node](https://github.com/census-instrumentation/opencensus-node)           |
-| `@opentelemetry/api`                  | `0.12.0` | OpenTelemetry Authors | [https://github.com/open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js)                         |
-| `@opentelemetry/context-base`         | `0.12.0` | OpenTelemetry Authors | [https://github.com/open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js)                         |
-| `@opentelemetry/core`                 | `0.12.0` | OpenTelemetry Authors | [https://github.com/open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js)                         |
-| `@opentelemetry/resources`            | `0.12.0` | OpenTelemetry Authors | [https://github.com/open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js)                         |
-| `@opentelemetry/semantic-conventions` | `0.12.0` | OpenTelemetry Authors | [https://github.com/open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js)                         |
-| `@opentelemetry/tracing`              | `0.12.0` | OpenTelemetry Authors | [https://github.com/open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js)                         |
+| `@opentelemetry/api`                  | `0.18.1` | OpenTelemetry Authors | [https://github.com/open-telemetry/opentelemetry-js-api](https://github.com/open-telemetry/opentelemetry-js-api)                 |
+| `@opentelemetry/semantic-conventions` | `0.18.2` | OpenTelemetry Authors | [https://github.com/open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js)                         |
 | `ecdsa-sig-formatter`                 | `1.0.11` | D2L Corporation       | [https://github.com/Brightspace/node-ecdsa-sig-formatter](https://github.com/Brightspace/node-ecdsa-sig-formatter)               |
 | `eventid`                             | `1.0.0`  | Google Inc.           | [https://github.com/google/eventid-js](https://github.com/google/eventid-js)                                                     |
 | `fast-text-encoding`                  | `1.0.3`  | Sam Thorogood         | [https://github.com/samthor/fast-text-encoding](https://github.com/samthor/fast-text-encoding)                                   |
 | `gaxios`                              | `4.2.0`  | Google, LLC           | [https://github.com/googleapis/gaxios](https://github.com/googleapis/gaxios)                                                     |
 | `gcp-metadata`                        | `4.2.1`  | Stephen Sawchuk       | [https://github.com/googleapis/gcp-metadata](https://github.com/googleapis/gcp-metadata)                                         |
 | `google-auth-library`                 | `6.1.6`  | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
-| `google-auth-library`                 | `7.0.3`  | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
+| `google-auth-library`                 | `7.0.4`  | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
 | `google-gax`                          | `2.11.2` | Google API Authors    | [https://github.com/googleapis/gax-nodejs](https://github.com/googleapis/gax-nodejs)                                             |
 | `hex2dec`                             | `1.1.2`  |                       | [https://github.com/donmccurdy/hex2dec](https://github.com/donmccurdy/hex2dec)                                                   |
 | `long`                                | `4.0.0`  | Daniel Wirtz          | [https://github.com/dcodeIO/long.js](https://github.com/dcodeIO/long.js)                                                         |
@@ -142,8 +138,8 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 | `@tootallnate/once`      | `1.1.2`    | Nathan Rajlich      | [https://github.com/TooTallNate/once](https://github.com/TooTallNate/once)                                                                     |
 | `@types/duplexify`       | `3.6.0`    |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
 | `@types/long`            | `4.0.1`    |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
-| `@types/node`            | `13.13.48` |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
-| `@types/node`            | `14.14.37` |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
+| `@types/node`            | `13.13.50` |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
+| `@types/node`            | `14.14.41` |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
 | `abort-controller`       | `3.0.0`    | Toru Nagashima      | [https://github.com/mysticatea/abort-controller](https://github.com/mysticatea/abort-controller)                                               |
 | `agent-base`             | `6.0.2`    | Nathan Rajlich      | [https://github.com/TooTallNate/node-agent-base](https://github.com/TooTallNate/node-agent-base)                                               |
 | `argparse`               | `1.0.10`   |                     | [https://github.com/nodeca/argparse](https://github.com/nodeca/argparse)                                                                       |
@@ -171,7 +167,7 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 | `fast-glob`              | `3.2.5`    | Denis Malinochkin   | [https://github.com/mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob)                                                                     |
 | `fill-range`             | `7.0.1`    | Jon Schlinkert      | [https://github.com/jonschlinkert/fill-range](https://github.com/jonschlinkert/fill-range)                                                     |
 | `gcs-resumable-upload`   | `3.1.3`    | Stephen Sawchuk     | [https://github.com/googleapis/gcs-resumable-upload](https://github.com/googleapis/gcs-resumable-upload)                                       |
-| `get-stream`             | `6.0.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/get-stream](https://github.com/sindresorhus/get-stream)                                                       |
+| `get-stream`             | `6.0.1`    | Sindre Sorhus       | [https://github.com/sindresorhus/get-stream](https://github.com/sindresorhus/get-stream)                                                       |
 | `google-p12-pem`         | `3.0.3`    | Ryan Seys           | [https://github.com/google/google-p12-pem](https://github.com/google/google-p12-pem)                                                           |
 | `gtoken`                 | `5.2.1`    | Google, LLC         | [https://github.com/google/node-gtoken](https://github.com/google/node-gtoken)                                                                 |
 | `hash-stream-validation` | `0.2.4`    | Stephen Sawchuk     | [https://github.com/stephenplusplus/hash-stream-validation](https://github.com/stephenplusplus/hash-stream-validation)                         |
@@ -194,7 +190,7 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 | `lodash.camelcase`       | `4.3.0`    | John-David Dalton   | [https://github.com/lodash/lodash](https://github.com/lodash/lodash)                                                                           |
 | `lodash.snakecase`       | `4.1.1`    | John-David Dalton   | [https://github.com/lodash/lodash](https://github.com/lodash/lodash)                                                                           |
 | `make-dir`               | `3.1.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/make-dir](https://github.com/sindresorhus/make-dir)                                                           |
-| `map-obj`                | `4.2.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/map-obj](https://github.com/sindresorhus/map-obj)                                                             |
+| `map-obj`                | `4.2.1`    | Sindre Sorhus       | [https://github.com/sindresorhus/map-obj](https://github.com/sindresorhus/map-obj)                                                             |
 | `merge2`                 | `1.4.1`    |                     | [https://github.com/teambition/merge2](https://github.com/teambition/merge2)                                                                   |
 | `micromatch`             | `4.0.2`    | Jon Schlinkert      | [https://github.com/micromatch/micromatch](https://github.com/micromatch/micromatch)                                                           |
 | `mime-db`                | `1.45.0`   |                     | [https://github.com/jshttp/mime-db](https://github.com/jshttp/mime-db)                                                                         |
@@ -246,7 +242,7 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 
 | Name                | Version  | Publisher       | Repository |
 | ------------------- | -------- | --------------- | ---------- |
-| `@atomist/api-cljs` | `0.5.36` | jim@atomist.com |            |
+| `@atomist/api-cljs` | `0.5.39` | jim@atomist.com |            |
 
 ## Contact
 
