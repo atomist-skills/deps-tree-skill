@@ -14,41 +14,41 @@ This page details all runtime dependencies of `@atomist/deps-tree-skill`.
 | [CC0-1.0](#cc0-10)            | 1     |
 | [GPL-2.0](#gpl-20)            | 1     |
 | [ISC](#isc)                   | 19    |
-| [MIT](#mit)                   | 105   |
+| [MIT](#mit)                   | 109   |
 | [UNKNOWN](#unknown)           | 1     |
 
 #### Apache-2.0
 
 Apache License 2.0 - [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
-| Name                                  | Version  | Publisher             | Repository                                                                                                                       |
-| ------------------------------------- | -------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| `@atomist/skill-logging`              | `0.2.6`  | Atomist               | [https://github.com/atomist-skills/skill-logging](https://github.com/atomist-skills/skill-logging)                               |
-| `@google-cloud/common`                | `3.6.0`  | Google Inc.           | [https://github.com/googleapis/nodejs-common](https://github.com/googleapis/nodejs-common)                                       |
-| `@google-cloud/logging`               | `8.2.0`  | Google Inc.           | [https://github.com/googleapis/nodejs-logging](https://github.com/googleapis/nodejs-logging)                                     |
-| `@google-cloud/paginator`             | `3.0.5`  | Google Inc.           | [https://github.com/googleapis/nodejs-paginator](https://github.com/googleapis/nodejs-paginator)                                 |
-| `@google-cloud/precise-date`          | `2.0.3`  | Google Inc.           | [https://github.com/googleapis/nodejs-precise-date](https://github.com/googleapis/nodejs-precise-date)                           |
-| `@google-cloud/projectify`            | `2.0.1`  | Google Inc.           | [https://github.com/googleapis/nodejs-projectify](https://github.com/googleapis/nodejs-projectify)                               |
-| `@google-cloud/promisify`             | `2.0.3`  | Google Inc.           | [https://github.com/googleapis/nodejs-promisify](https://github.com/googleapis/nodejs-promisify)                                 |
-| `@google-cloud/pubsub`                | `2.11.0` | Google Inc.           | [https://github.com/googleapis/nodejs-pubsub](https://github.com/googleapis/nodejs-pubsub)                                       |
-| `@google-cloud/storage`               | `5.8.3`  | Google Inc.           | [https://github.com/googleapis/nodejs-storage](https://github.com/googleapis/nodejs-storage)                                     |
-| `@grpc/grpc-js`                       | `1.2.12` | Google Inc.           | [https://github.com/grpc/grpc-node/tree/master/packages/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) |
-| `@grpc/proto-loader`                  | `0.5.6`  | Google Inc.           | [https://github.com/grpc/grpc-node](https://github.com/grpc/grpc-node)                                                           |
-| `@opencensus/core`                    | `0.0.22` | Google Inc.           | [https://github.com/census-instrumentation/opencensus-node](https://github.com/census-instrumentation/opencensus-node)           |
-| `@opencensus/propagation-stackdriver` | `0.0.22` | OpenCensus Authors    | [https://github.com/census-instrumentation/opencensus-node](https://github.com/census-instrumentation/opencensus-node)           |
-| `@opentelemetry/api`                  | `0.18.1` | OpenTelemetry Authors | [https://github.com/open-telemetry/opentelemetry-js-api](https://github.com/open-telemetry/opentelemetry-js-api)                 |
-| `@opentelemetry/semantic-conventions` | `0.18.2` | OpenTelemetry Authors | [https://github.com/open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js)                         |
-| `ecdsa-sig-formatter`                 | `1.0.11` | D2L Corporation       | [https://github.com/Brightspace/node-ecdsa-sig-formatter](https://github.com/Brightspace/node-ecdsa-sig-formatter)               |
-| `eventid`                             | `1.0.0`  | Google Inc.           | [https://github.com/google/eventid-js](https://github.com/google/eventid-js)                                                     |
-| `fast-text-encoding`                  | `1.0.3`  | Sam Thorogood         | [https://github.com/samthor/fast-text-encoding](https://github.com/samthor/fast-text-encoding)                                   |
-| `gaxios`                              | `4.2.0`  | Google, LLC           | [https://github.com/googleapis/gaxios](https://github.com/googleapis/gaxios)                                                     |
-| `gcp-metadata`                        | `4.2.1`  | Stephen Sawchuk       | [https://github.com/googleapis/gcp-metadata](https://github.com/googleapis/gcp-metadata)                                         |
-| `google-auth-library`                 | `6.1.6`  | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
-| `google-auth-library`                 | `7.0.4`  | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
-| `google-gax`                          | `2.11.2` | Google API Authors    | [https://github.com/googleapis/gax-nodejs](https://github.com/googleapis/gax-nodejs)                                             |
-| `hex2dec`                             | `1.1.2`  |                       | [https://github.com/donmccurdy/hex2dec](https://github.com/donmccurdy/hex2dec)                                                   |
-| `long`                                | `4.0.0`  | Daniel Wirtz          | [https://github.com/dcodeIO/long.js](https://github.com/dcodeIO/long.js)                                                         |
-| `teeny-request`                       | `7.0.1`  | fhinkel               | [https://github.com/googleapis/teeny-request](https://github.com/googleapis/teeny-request)                                       |
+| Name                                  | Version         | Publisher             | Repository                                                                                                                       |
+| ------------------------------------- | --------------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `@atomist/skill-logging`              | `0.2.7-main.70` | Atomist, Inc.         | [https://github.com/atomist-skills/skill-logging](https://github.com/atomist-skills/skill-logging)                               |
+| `@google-cloud/common`                | `3.6.0`         | Google Inc.           | [https://github.com/googleapis/nodejs-common](https://github.com/googleapis/nodejs-common)                                       |
+| `@google-cloud/logging`               | `8.2.0`         | Google Inc.           | [https://github.com/googleapis/nodejs-logging](https://github.com/googleapis/nodejs-logging)                                     |
+| `@google-cloud/paginator`             | `3.0.5`         | Google Inc.           | [https://github.com/googleapis/nodejs-paginator](https://github.com/googleapis/nodejs-paginator)                                 |
+| `@google-cloud/precise-date`          | `2.0.3`         | Google Inc.           | [https://github.com/googleapis/nodejs-precise-date](https://github.com/googleapis/nodejs-precise-date)                           |
+| `@google-cloud/projectify`            | `2.0.1`         | Google Inc.           | [https://github.com/googleapis/nodejs-projectify](https://github.com/googleapis/nodejs-projectify)                               |
+| `@google-cloud/promisify`             | `2.0.3`         | Google Inc.           | [https://github.com/googleapis/nodejs-promisify](https://github.com/googleapis/nodejs-promisify)                                 |
+| `@google-cloud/pubsub`                | `2.11.0`        | Google Inc.           | [https://github.com/googleapis/nodejs-pubsub](https://github.com/googleapis/nodejs-pubsub)                                       |
+| `@google-cloud/storage`               | `5.8.4`         | Google Inc.           | [https://github.com/googleapis/nodejs-storage](https://github.com/googleapis/nodejs-storage)                                     |
+| `@grpc/grpc-js`                       | `1.2.12`        | Google Inc.           | [https://github.com/grpc/grpc-node/tree/master/packages/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) |
+| `@grpc/proto-loader`                  | `0.5.6`         | Google Inc.           | [https://github.com/grpc/grpc-node](https://github.com/grpc/grpc-node)                                                           |
+| `@opencensus/core`                    | `0.0.22`        | Google Inc.           | [https://github.com/census-instrumentation/opencensus-node](https://github.com/census-instrumentation/opencensus-node)           |
+| `@opencensus/propagation-stackdriver` | `0.0.22`        | OpenCensus Authors    | [https://github.com/census-instrumentation/opencensus-node](https://github.com/census-instrumentation/opencensus-node)           |
+| `@opentelemetry/api`                  | `0.18.1`        | OpenTelemetry Authors | [https://github.com/open-telemetry/opentelemetry-js-api](https://github.com/open-telemetry/opentelemetry-js-api)                 |
+| `@opentelemetry/semantic-conventions` | `0.18.2`        | OpenTelemetry Authors | [https://github.com/open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js)                         |
+| `ecdsa-sig-formatter`                 | `1.0.11`        | D2L Corporation       | [https://github.com/Brightspace/node-ecdsa-sig-formatter](https://github.com/Brightspace/node-ecdsa-sig-formatter)               |
+| `eventid`                             | `1.0.0`         | Google Inc.           | [https://github.com/google/eventid-js](https://github.com/google/eventid-js)                                                     |
+| `fast-text-encoding`                  | `1.0.3`         | Sam Thorogood         | [https://github.com/samthor/fast-text-encoding](https://github.com/samthor/fast-text-encoding)                                   |
+| `gaxios`                              | `4.2.0`         | Google, LLC           | [https://github.com/googleapis/gaxios](https://github.com/googleapis/gaxios)                                                     |
+| `gcp-metadata`                        | `4.2.1`         | Stephen Sawchuk       | [https://github.com/googleapis/gcp-metadata](https://github.com/googleapis/gcp-metadata)                                         |
+| `google-auth-library`                 | `6.1.6`         | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
+| `google-auth-library`                 | `7.0.4`         | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
+| `google-gax`                          | `2.11.2`        | Google API Authors    | [https://github.com/googleapis/gax-nodejs](https://github.com/googleapis/gax-nodejs)                                             |
+| `hex2dec`                             | `1.1.2`         |                       | [https://github.com/donmccurdy/hex2dec](https://github.com/donmccurdy/hex2dec)                                                   |
+| `long`                                | `4.0.0`         | Daniel Wirtz          | [https://github.com/dcodeIO/long.js](https://github.com/dcodeIO/long.js)                                                         |
+| `teeny-request`                       | `7.0.1`         | fhinkel               | [https://github.com/googleapis/teeny-request](https://github.com/googleapis/teeny-request)                                       |
 
 #### BSD-2-Clause
 
@@ -130,119 +130,123 @@ ISC License - [https://www.isc.org/downloads/software-support-policy/isc-license
 
 MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
 
-| Name                     | Version    | Publisher           | Repository                                                                                                                                     |
-| ------------------------ | ---------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| `@nodelib/fs.scandir`    | `2.1.4`    |                     | [https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.scandir](https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.scandir) |
-| `@nodelib/fs.stat`       | `2.0.4`    |                     | [https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.stat](https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.stat)       |
-| `@nodelib/fs.walk`       | `1.2.6`    |                     | [https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk](https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk)       |
-| `@tootallnate/once`      | `1.1.2`    | Nathan Rajlich      | [https://github.com/TooTallNate/once](https://github.com/TooTallNate/once)                                                                     |
-| `@types/duplexify`       | `3.6.0`    |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
-| `@types/long`            | `4.0.1`    |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
-| `@types/node`            | `13.13.50` |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
-| `@types/node`            | `14.14.41` |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
-| `abort-controller`       | `3.0.0`    | Toru Nagashima      | [https://github.com/mysticatea/abort-controller](https://github.com/mysticatea/abort-controller)                                               |
-| `agent-base`             | `6.0.2`    | Nathan Rajlich      | [https://github.com/TooTallNate/node-agent-base](https://github.com/TooTallNate/node-agent-base)                                               |
-| `argparse`               | `1.0.10`   |                     | [https://github.com/nodeca/argparse](https://github.com/nodeca/argparse)                                                                       |
-| `arrify`                 | `2.0.1`    | Sindre Sorhus       | [https://github.com/sindresorhus/arrify](https://github.com/sindresorhus/arrify)                                                               |
-| `async-retry`            | `1.3.1`    |                     | [https://github.com/zeit/async-retry](https://github.com/zeit/async-retry)                                                                     |
-| `balanced-match`         | `1.0.0`    | Julian Gruber       | [https://github.com/juliangruber/balanced-match](https://github.com/juliangruber/balanced-match)                                               |
-| `base64-js`              | `1.5.1`    | T. Jameson Little   | [https://github.com/beatgammit/base64-js](https://github.com/beatgammit/base64-js)                                                             |
-| `bignumber.js`           | `9.0.1`    | Michael Mclaughlin  | [https://github.com/MikeMcl/bignumber.js](https://github.com/MikeMcl/bignumber.js)                                                             |
-| `brace-expansion`        | `1.1.11`   | Julian Gruber       | [https://github.com/juliangruber/brace-expansion](https://github.com/juliangruber/brace-expansion)                                             |
-| `braces`                 | `3.0.2`    | Jon Schlinkert      | [https://github.com/micromatch/braces](https://github.com/micromatch/braces)                                                                   |
-| `compressible`           | `2.0.18`   |                     | [https://github.com/jshttp/compressible](https://github.com/jshttp/compressible)                                                               |
-| `concat-map`             | `0.0.1`    | James Halliday      | [https://github.com/substack/node-concat-map](https://github.com/substack/node-concat-map)                                                     |
-| `crypto-random-string`   | `2.0.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/crypto-random-string](https://github.com/sindresorhus/crypto-random-string)                                   |
-| `d64`                    | `1.0.0`    | Dominic Tarr        | [https://github.com/dominictarr/d64](https://github.com/dominictarr/d64)                                                                       |
-| `date-and-time`          | `0.14.2`   | KNOWLEDGECODE       | [https://github.com/knowledgecode/date-and-time](https://github.com/knowledgecode/date-and-time)                                               |
-| `debug`                  | `4.3.1`    | TJ Holowaychuk      | [https://github.com/visionmedia/debug](https://github.com/visionmedia/debug)                                                                   |
-| `dot-prop`               | `5.3.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/dot-prop](https://github.com/sindresorhus/dot-prop)                                                           |
-| `dot-prop`               | `6.0.1`    | Sindre Sorhus       | [https://github.com/sindresorhus/dot-prop](https://github.com/sindresorhus/dot-prop)                                                           |
-| `duplexify`              | `4.1.1`    | Mathias Buus        | [https://github.com/mafintosh/duplexify](https://github.com/mafintosh/duplexify)                                                               |
-| `ee-first`               | `1.1.1`    | Jonathan Ong        | [https://github.com/jonathanong/ee-first](https://github.com/jonathanong/ee-first)                                                             |
-| `end-of-stream`          | `1.4.4`    | Mathias Buus        | [https://github.com/mafintosh/end-of-stream](https://github.com/mafintosh/end-of-stream)                                                       |
-| `ent`                    | `2.2.0`    | James Halliday      | [https://github.com/substack/node-ent](https://github.com/substack/node-ent)                                                                   |
-| `event-target-shim`      | `5.0.1`    | Toru Nagashima      | [https://github.com/mysticatea/event-target-shim](https://github.com/mysticatea/event-target-shim)                                             |
-| `extend`                 | `3.0.2`    | Stefan Thomas       | [https://github.com/justmoon/node-extend](https://github.com/justmoon/node-extend)                                                             |
-| `fast-glob`              | `3.2.5`    | Denis Malinochkin   | [https://github.com/mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob)                                                                     |
-| `fill-range`             | `7.0.1`    | Jon Schlinkert      | [https://github.com/jonschlinkert/fill-range](https://github.com/jonschlinkert/fill-range)                                                     |
-| `gcs-resumable-upload`   | `3.1.3`    | Stephen Sawchuk     | [https://github.com/googleapis/gcs-resumable-upload](https://github.com/googleapis/gcs-resumable-upload)                                       |
-| `get-stream`             | `6.0.1`    | Sindre Sorhus       | [https://github.com/sindresorhus/get-stream](https://github.com/sindresorhus/get-stream)                                                       |
-| `google-p12-pem`         | `3.0.3`    | Ryan Seys           | [https://github.com/google/google-p12-pem](https://github.com/google/google-p12-pem)                                                           |
-| `gtoken`                 | `5.2.1`    | Google, LLC         | [https://github.com/google/node-gtoken](https://github.com/google/node-gtoken)                                                                 |
-| `hash-stream-validation` | `0.2.4`    | Stephen Sawchuk     | [https://github.com/stephenplusplus/hash-stream-validation](https://github.com/stephenplusplus/hash-stream-validation)                         |
-| `http-proxy-agent`       | `4.0.1`    | Nathan Rajlich      | [https://github.com/TooTallNate/node-http-proxy-agent](https://github.com/TooTallNate/node-http-proxy-agent)                                   |
-| `https-proxy-agent`      | `5.0.0`    | Nathan Rajlich      | [https://github.com/TooTallNate/node-https-proxy-agent](https://github.com/TooTallNate/node-https-proxy-agent)                                 |
-| `iconv-lite`             | `0.4.24`   | Alexander Shtuchkin | [https://github.com/ashtuchkin/iconv-lite](https://github.com/ashtuchkin/iconv-lite)                                                           |
-| `imurmurhash`            | `0.1.4`    | Jens Taylor         | [https://github.com/jensyt/imurmurhash-js](https://github.com/jensyt/imurmurhash-js)                                                           |
-| `is-extglob`             | `2.1.1`    | Jon Schlinkert      | [https://github.com/jonschlinkert/is-extglob](https://github.com/jonschlinkert/is-extglob)                                                     |
-| `is-glob`                | `4.0.1`    | Jon Schlinkert      | [https://github.com/micromatch/is-glob](https://github.com/micromatch/is-glob)                                                                 |
-| `is-number`              | `7.0.0`    | Jon Schlinkert      | [https://github.com/jonschlinkert/is-number](https://github.com/jonschlinkert/is-number)                                                       |
-| `is-obj`                 | `2.0.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/is-obj](https://github.com/sindresorhus/is-obj)                                                               |
-| `is-stream-ended`        | `0.1.4`    | Stephen Sawchuk     | [https://github.com/stephenplusplus/is-stream-ended](https://github.com/stephenplusplus/is-stream-ended)                                       |
-| `is-stream`              | `2.0.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/is-stream](https://github.com/sindresorhus/is-stream)                                                         |
-| `is-typedarray`          | `1.0.0`    | Hugh Kennedy        | [https://github.com/hughsk/is-typedarray](https://github.com/hughsk/is-typedarray)                                                             |
-| `is`                     | `3.3.0`    | Enrico Marino       | [https://github.com/enricomarino/is](https://github.com/enricomarino/is)                                                                       |
-| `js-yaml`                | `3.14.1`   | Vladimir Zapparov   | [https://github.com/nodeca/js-yaml](https://github.com/nodeca/js-yaml)                                                                         |
-| `json-bigint`            | `1.0.0`    | Andrey Sidorov      | [https://github.com/sidorares/json-bigint](https://github.com/sidorares/json-bigint)                                                           |
-| `jwa`                    | `2.0.0`    | Brian J. Brennan    | [https://github.com/brianloveswords/node-jwa](https://github.com/brianloveswords/node-jwa)                                                     |
-| `jws`                    | `4.0.0`    | Brian J Brennan     | [https://github.com/brianloveswords/node-jws](https://github.com/brianloveswords/node-jws)                                                     |
-| `lodash.camelcase`       | `4.3.0`    | John-David Dalton   | [https://github.com/lodash/lodash](https://github.com/lodash/lodash)                                                                           |
-| `lodash.snakecase`       | `4.1.1`    | John-David Dalton   | [https://github.com/lodash/lodash](https://github.com/lodash/lodash)                                                                           |
-| `make-dir`               | `3.1.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/make-dir](https://github.com/sindresorhus/make-dir)                                                           |
-| `map-obj`                | `4.2.1`    | Sindre Sorhus       | [https://github.com/sindresorhus/map-obj](https://github.com/sindresorhus/map-obj)                                                             |
-| `merge2`                 | `1.4.1`    |                     | [https://github.com/teambition/merge2](https://github.com/teambition/merge2)                                                                   |
-| `micromatch`             | `4.0.2`    | Jon Schlinkert      | [https://github.com/micromatch/micromatch](https://github.com/micromatch/micromatch)                                                           |
-| `mime-db`                | `1.45.0`   |                     | [https://github.com/jshttp/mime-db](https://github.com/jshttp/mime-db)                                                                         |
-| `mime-types`             | `2.1.28`   |                     | [https://github.com/jshttp/mime-types](https://github.com/jshttp/mime-types)                                                                   |
-| `mime`                   | `2.5.2`    | Robert Kieffer      | [https://github.com/broofa/mime](https://github.com/broofa/mime)                                                                               |
-| `mimic-fn`               | `2.1.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/mimic-fn](https://github.com/sindresorhus/mimic-fn)                                                           |
-| `ms`                     | `2.1.2`    |                     | [https://github.com/zeit/ms](https://github.com/zeit/ms)                                                                                       |
-| `node-fetch`             | `2.6.1`    | David Frank         | [https://github.com/bitinn/node-fetch](https://github.com/bitinn/node-fetch)                                                                   |
-| `on-finished`            | `2.3.0`    |                     | [https://github.com/jshttp/on-finished](https://github.com/jshttp/on-finished)                                                                 |
-| `onetime`                | `5.1.2`    | Sindre Sorhus       | [https://github.com/sindresorhus/onetime](https://github.com/sindresorhus/onetime)                                                             |
-| `p-defer`                | `3.0.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/p-defer](https://github.com/sindresorhus/p-defer)                                                             |
-| `p-limit`                | `3.1.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/p-limit](https://github.com/sindresorhus/p-limit)                                                             |
-| `path-is-absolute`       | `1.0.1`    | Sindre Sorhus       | [https://github.com/sindresorhus/path-is-absolute](https://github.com/sindresorhus/path-is-absolute)                                           |
-| `picomatch`              | `2.2.2`    | Jon Schlinkert      | [https://github.com/micromatch/picomatch](https://github.com/micromatch/picomatch)                                                             |
-| `pump`                   | `3.0.0`    | Mathias Buus Madsen | [https://github.com/mafintosh/pump](https://github.com/mafintosh/pump)                                                                         |
-| `pumpify`                | `2.0.1`    | Mathias Buus        | [https://github.com/mafintosh/pumpify](https://github.com/mafintosh/pumpify)                                                                   |
-| `queue-microtask`        | `1.2.3`    | Feross Aboukhadijeh | [https://github.com/feross/queue-microtask](https://github.com/feross/queue-microtask)                                                         |
-| `readable-stream`        | `3.6.0`    |                     | [https://github.com/nodejs/readable-stream](https://github.com/nodejs/readable-stream)                                                         |
-| `retry-request`          | `4.1.3`    | Stephen Sawchuk     | [https://github.com/stephenplusplus/retry-request](https://github.com/stephenplusplus/retry-request)                                           |
-| `retry`                  | `0.12.0`   | Tim Koschützki      | [https://github.com/tim-kos/node-retry](https://github.com/tim-kos/node-retry)                                                                 |
-| `reusify`                | `1.0.4`    | Matteo Collina      | [https://github.com/mcollina/reusify](https://github.com/mcollina/reusify)                                                                     |
-| `run-parallel`           | `1.2.0`    | Feross Aboukhadijeh | [https://github.com/feross/run-parallel](https://github.com/feross/run-parallel)                                                               |
-| `safe-buffer`            | `5.1.2`    | Feross Aboukhadijeh | [https://github.com/feross/safe-buffer](https://github.com/feross/safe-buffer)                                                                 |
-| `safe-buffer`            | `5.2.1`    | Feross Aboukhadijeh | [https://github.com/feross/safe-buffer](https://github.com/feross/safe-buffer)                                                                 |
-| `safer-buffer`           | `2.1.2`    | Nikita Skovoroda    | [https://github.com/ChALkeR/safer-buffer](https://github.com/ChALkeR/safer-buffer)                                                             |
-| `shell-quote`            | `1.7.2`    | James Halliday      | [https://github.com/substack/node-shell-quote](https://github.com/substack/node-shell-quote)                                                   |
-| `snakecase-keys`         | `3.2.1`    | Ben Drucker         | [https://github.com/bendrucker/snakecase-keys](https://github.com/bendrucker/snakecase-keys)                                                   |
-| `snakeize`               | `0.1.0`    | James Halliday      | [https://github.com/nathan7/snakeize](https://github.com/nathan7/snakeize)                                                                     |
-| `stream-events`          | `1.0.5`    | Stephen Sawchuk     | [https://github.com/stephenplusplus/stream-events](https://github.com/stephenplusplus/stream-events)                                           |
-| `stream-shift`           | `1.0.1`    | Mathias Buus        | [https://github.com/mafintosh/stream-shift](https://github.com/mafintosh/stream-shift)                                                         |
-| `string_decoder`         | `1.3.0`    |                     | [https://github.com/nodejs/string_decoder](https://github.com/nodejs/string_decoder)                                                           |
-| `stubs`                  | `3.0.0`    | Stephen Sawchuk     | [https://github.com/stephenplusplus/stubs](https://github.com/stephenplusplus/stubs)                                                           |
-| `through2`               | `4.0.2`    | Rod Vagg            | [https://github.com/rvagg/through2](https://github.com/rvagg/through2)                                                                         |
-| `tmp`                    | `0.2.1`    | KARASZI István      | [https://github.com/raszi/node-tmp](https://github.com/raszi/node-tmp)                                                                         |
-| `to-no-case`             | `1.0.2`    |                     | [https://github.com/ianstormtaylor/to-no-case](https://github.com/ianstormtaylor/to-no-case)                                                   |
-| `to-regex-range`         | `5.0.1`    | Jon Schlinkert      | [https://github.com/micromatch/to-regex-range](https://github.com/micromatch/to-regex-range)                                                   |
-| `to-snake-case`          | `1.0.0`    |                     | [https://github.com/ianstormtaylor/to-snake-case](https://github.com/ianstormtaylor/to-snake-case)                                             |
-| `to-space-case`          | `1.0.0`    |                     | [https://github.com/ianstormtaylor/to-space-case](https://github.com/ianstormtaylor/to-space-case)                                             |
-| `type-fest`              | `0.20.2`   | Sindre Sorhus       | [https://github.com/sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)                                                         |
-| `typedarray-to-buffer`   | `3.1.5`    | Feross Aboukhadijeh | [https://github.com/feross/typedarray-to-buffer](https://github.com/feross/typedarray-to-buffer)                                               |
-| `unique-string`          | `2.0.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/unique-string](https://github.com/sindresorhus/unique-string)                                                 |
-| `util-deprecate`         | `1.0.2`    | Nathan Rajlich      | [https://github.com/TooTallNate/util-deprecate](https://github.com/TooTallNate/util-deprecate)                                                 |
-| `uuid`                   | `3.4.0`    |                     | [https://github.com/uuidjs/uuid](https://github.com/uuidjs/uuid)                                                                               |
-| `uuid`                   | `8.3.2`    |                     | [https://github.com/uuidjs/uuid](https://github.com/uuidjs/uuid)                                                                               |
-| `xdg-basedir`            | `4.0.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/xdg-basedir](https://github.com/sindresorhus/xdg-basedir)                                                     |
-| `yocto-queue`            | `0.1.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/yocto-queue](https://github.com/sindresorhus/yocto-queue)                                                     |
+| Name                     | Version    | Publisher            | Repository                                                                                                                                     |
+| ------------------------ | ---------- | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| `@nodelib/fs.scandir`    | `2.1.4`    |                      | [https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.scandir](https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.scandir) |
+| `@nodelib/fs.stat`       | `2.0.4`    |                      | [https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.stat](https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.stat)       |
+| `@nodelib/fs.walk`       | `1.2.6`    |                      | [https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk](https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk)       |
+| `@tootallnate/once`      | `1.1.2`    | Nathan Rajlich       | [https://github.com/TooTallNate/once](https://github.com/TooTallNate/once)                                                                     |
+| `@types/better-queue`    | `3.8.2`    |                      | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
+| `@types/duplexify`       | `3.6.0`    |                      | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
+| `@types/long`            | `4.0.1`    |                      | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
+| `@types/node`            | `13.13.50` |                      | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
+| `@types/node`            | `14.14.41` |                      | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
+| `abort-controller`       | `3.0.0`    | Toru Nagashima       | [https://github.com/mysticatea/abort-controller](https://github.com/mysticatea/abort-controller)                                               |
+| `agent-base`             | `6.0.2`    | Nathan Rajlich       | [https://github.com/TooTallNate/node-agent-base](https://github.com/TooTallNate/node-agent-base)                                               |
+| `argparse`               | `1.0.10`   |                      | [https://github.com/nodeca/argparse](https://github.com/nodeca/argparse)                                                                       |
+| `arrify`                 | `2.0.1`    | Sindre Sorhus        | [https://github.com/sindresorhus/arrify](https://github.com/sindresorhus/arrify)                                                               |
+| `async-retry`            | `1.3.1`    |                      | [https://github.com/zeit/async-retry](https://github.com/zeit/async-retry)                                                                     |
+| `balanced-match`         | `1.0.0`    | Julian Gruber        | [https://github.com/juliangruber/balanced-match](https://github.com/juliangruber/balanced-match)                                               |
+| `base64-js`              | `1.5.1`    | T. Jameson Little    | [https://github.com/beatgammit/base64-js](https://github.com/beatgammit/base64-js)                                                             |
+| `better-queue-memory`    | `1.0.4`    | Diamond Inc.         | [https://github.com/diamondio/better-queue-memory](https://github.com/diamondio/better-queue-memory)                                           |
+| `better-queue`           | `3.8.10`   | Diamond Inc.         | [https://github.com/diamondio/better-queue](https://github.com/diamondio/better-queue)                                                         |
+| `bignumber.js`           | `9.0.1`    | Michael Mclaughlin   | [https://github.com/MikeMcl/bignumber.js](https://github.com/MikeMcl/bignumber.js)                                                             |
+| `brace-expansion`        | `1.1.11`   | Julian Gruber        | [https://github.com/juliangruber/brace-expansion](https://github.com/juliangruber/brace-expansion)                                             |
+| `braces`                 | `3.0.2`    | Jon Schlinkert       | [https://github.com/micromatch/braces](https://github.com/micromatch/braces)                                                                   |
+| `compressible`           | `2.0.18`   |                      | [https://github.com/jshttp/compressible](https://github.com/jshttp/compressible)                                                               |
+| `concat-map`             | `0.0.1`    | James Halliday       | [https://github.com/substack/node-concat-map](https://github.com/substack/node-concat-map)                                                     |
+| `crypto-random-string`   | `2.0.0`    | Sindre Sorhus        | [https://github.com/sindresorhus/crypto-random-string](https://github.com/sindresorhus/crypto-random-string)                                   |
+| `d64`                    | `1.0.0`    | Dominic Tarr         | [https://github.com/dominictarr/d64](https://github.com/dominictarr/d64)                                                                       |
+| `date-and-time`          | `1.0.0`    | KNOWLEDGECODE        | [https://github.com/knowledgecode/date-and-time](https://github.com/knowledgecode/date-and-time)                                               |
+| `debug`                  | `4.3.1`    | TJ Holowaychuk       | [https://github.com/visionmedia/debug](https://github.com/visionmedia/debug)                                                                   |
+| `dot-prop`               | `5.3.0`    | Sindre Sorhus        | [https://github.com/sindresorhus/dot-prop](https://github.com/sindresorhus/dot-prop)                                                           |
+| `dot-prop`               | `6.0.1`    | Sindre Sorhus        | [https://github.com/sindresorhus/dot-prop](https://github.com/sindresorhus/dot-prop)                                                           |
+| `duplexify`              | `4.1.1`    | Mathias Buus         | [https://github.com/mafintosh/duplexify](https://github.com/mafintosh/duplexify)                                                               |
+| `ee-first`               | `1.1.1`    | Jonathan Ong         | [https://github.com/jonathanong/ee-first](https://github.com/jonathanong/ee-first)                                                             |
+| `end-of-stream`          | `1.4.4`    | Mathias Buus         | [https://github.com/mafintosh/end-of-stream](https://github.com/mafintosh/end-of-stream)                                                       |
+| `ent`                    | `2.2.0`    | James Halliday       | [https://github.com/substack/node-ent](https://github.com/substack/node-ent)                                                                   |
+| `event-target-shim`      | `5.0.1`    | Toru Nagashima       | [https://github.com/mysticatea/event-target-shim](https://github.com/mysticatea/event-target-shim)                                             |
+| `extend`                 | `3.0.2`    | Stefan Thomas        | [https://github.com/justmoon/node-extend](https://github.com/justmoon/node-extend)                                                             |
+| `fast-glob`              | `3.2.5`    | Denis Malinochkin    | [https://github.com/mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob)                                                                     |
+| `fill-range`             | `7.0.1`    | Jon Schlinkert       | [https://github.com/jonschlinkert/fill-range](https://github.com/jonschlinkert/fill-range)                                                     |
+| `gcs-resumable-upload`   | `3.1.3`    | Stephen Sawchuk      | [https://github.com/googleapis/gcs-resumable-upload](https://github.com/googleapis/gcs-resumable-upload)                                       |
+| `get-stream`             | `6.0.1`    | Sindre Sorhus        | [https://github.com/sindresorhus/get-stream](https://github.com/sindresorhus/get-stream)                                                       |
+| `google-p12-pem`         | `3.0.3`    | Ryan Seys            | [https://github.com/google/google-p12-pem](https://github.com/google/google-p12-pem)                                                           |
+| `gtoken`                 | `5.2.1`    | Google, LLC          | [https://github.com/google/node-gtoken](https://github.com/google/node-gtoken)                                                                 |
+| `hash-stream-validation` | `0.2.4`    | Stephen Sawchuk      | [https://github.com/stephenplusplus/hash-stream-validation](https://github.com/stephenplusplus/hash-stream-validation)                         |
+| `http-proxy-agent`       | `4.0.1`    | Nathan Rajlich       | [https://github.com/TooTallNate/node-http-proxy-agent](https://github.com/TooTallNate/node-http-proxy-agent)                                   |
+| `https-proxy-agent`      | `5.0.0`    | Nathan Rajlich       | [https://github.com/TooTallNate/node-https-proxy-agent](https://github.com/TooTallNate/node-https-proxy-agent)                                 |
+| `iconv-lite`             | `0.4.24`   | Alexander Shtuchkin  | [https://github.com/ashtuchkin/iconv-lite](https://github.com/ashtuchkin/iconv-lite)                                                           |
+| `imurmurhash`            | `0.1.4`    | Jens Taylor          | [https://github.com/jensyt/imurmurhash-js](https://github.com/jensyt/imurmurhash-js)                                                           |
+| `is-extglob`             | `2.1.1`    | Jon Schlinkert       | [https://github.com/jonschlinkert/is-extglob](https://github.com/jonschlinkert/is-extglob)                                                     |
+| `is-glob`                | `4.0.1`    | Jon Schlinkert       | [https://github.com/micromatch/is-glob](https://github.com/micromatch/is-glob)                                                                 |
+| `is-number`              | `7.0.0`    | Jon Schlinkert       | [https://github.com/jonschlinkert/is-number](https://github.com/jonschlinkert/is-number)                                                       |
+| `is-obj`                 | `2.0.0`    | Sindre Sorhus        | [https://github.com/sindresorhus/is-obj](https://github.com/sindresorhus/is-obj)                                                               |
+| `is-stream-ended`        | `0.1.4`    | Stephen Sawchuk      | [https://github.com/stephenplusplus/is-stream-ended](https://github.com/stephenplusplus/is-stream-ended)                                       |
+| `is-stream`              | `2.0.0`    | Sindre Sorhus        | [https://github.com/sindresorhus/is-stream](https://github.com/sindresorhus/is-stream)                                                         |
+| `is-typedarray`          | `1.0.0`    | Hugh Kennedy         | [https://github.com/hughsk/is-typedarray](https://github.com/hughsk/is-typedarray)                                                             |
+| `is`                     | `3.3.0`    | Enrico Marino        | [https://github.com/enricomarino/is](https://github.com/enricomarino/is)                                                                       |
+| `js-yaml`                | `3.14.1`   | Vladimir Zapparov    | [https://github.com/nodeca/js-yaml](https://github.com/nodeca/js-yaml)                                                                         |
+| `json-bigint`            | `1.0.0`    | Andrey Sidorov       | [https://github.com/sidorares/json-bigint](https://github.com/sidorares/json-bigint)                                                           |
+| `jwa`                    | `2.0.0`    | Brian J. Brennan     | [https://github.com/brianloveswords/node-jwa](https://github.com/brianloveswords/node-jwa)                                                     |
+| `jws`                    | `4.0.0`    | Brian J Brennan      | [https://github.com/brianloveswords/node-jws](https://github.com/brianloveswords/node-jws)                                                     |
+| `lodash.camelcase`       | `4.3.0`    | John-David Dalton    | [https://github.com/lodash/lodash](https://github.com/lodash/lodash)                                                                           |
+| `lodash.snakecase`       | `4.1.1`    | John-David Dalton    | [https://github.com/lodash/lodash](https://github.com/lodash/lodash)                                                                           |
+| `make-dir`               | `3.1.0`    | Sindre Sorhus        | [https://github.com/sindresorhus/make-dir](https://github.com/sindresorhus/make-dir)                                                           |
+| `map-obj`                | `4.2.1`    | Sindre Sorhus        | [https://github.com/sindresorhus/map-obj](https://github.com/sindresorhus/map-obj)                                                             |
+| `merge2`                 | `1.4.1`    |                      | [https://github.com/teambition/merge2](https://github.com/teambition/merge2)                                                                   |
+| `micromatch`             | `4.0.2`    | Jon Schlinkert       | [https://github.com/micromatch/micromatch](https://github.com/micromatch/micromatch)                                                           |
+| `mime-db`                | `1.45.0`   |                      | [https://github.com/jshttp/mime-db](https://github.com/jshttp/mime-db)                                                                         |
+| `mime-types`             | `2.1.28`   |                      | [https://github.com/jshttp/mime-types](https://github.com/jshttp/mime-types)                                                                   |
+| `mime`                   | `2.5.2`    | Robert Kieffer       | [https://github.com/broofa/mime](https://github.com/broofa/mime)                                                                               |
+| `mimic-fn`               | `2.1.0`    | Sindre Sorhus        | [https://github.com/sindresorhus/mimic-fn](https://github.com/sindresorhus/mimic-fn)                                                           |
+| `ms`                     | `2.1.2`    |                      | [https://github.com/zeit/ms](https://github.com/zeit/ms)                                                                                       |
+| `node-eta`               | `0.9.0`    | Constantin Titarenko | [https://github.com/titarenko/eta](https://github.com/titarenko/eta)                                                                           |
+| `node-fetch`             | `2.6.1`    | David Frank          | [https://github.com/bitinn/node-fetch](https://github.com/bitinn/node-fetch)                                                                   |
+| `on-finished`            | `2.3.0`    |                      | [https://github.com/jshttp/on-finished](https://github.com/jshttp/on-finished)                                                                 |
+| `onetime`                | `5.1.2`    | Sindre Sorhus        | [https://github.com/sindresorhus/onetime](https://github.com/sindresorhus/onetime)                                                             |
+| `p-defer`                | `3.0.0`    | Sindre Sorhus        | [https://github.com/sindresorhus/p-defer](https://github.com/sindresorhus/p-defer)                                                             |
+| `p-limit`                | `3.1.0`    | Sindre Sorhus        | [https://github.com/sindresorhus/p-limit](https://github.com/sindresorhus/p-limit)                                                             |
+| `path-is-absolute`       | `1.0.1`    | Sindre Sorhus        | [https://github.com/sindresorhus/path-is-absolute](https://github.com/sindresorhus/path-is-absolute)                                           |
+| `picomatch`              | `2.2.2`    | Jon Schlinkert       | [https://github.com/micromatch/picomatch](https://github.com/micromatch/picomatch)                                                             |
+| `pump`                   | `3.0.0`    | Mathias Buus Madsen  | [https://github.com/mafintosh/pump](https://github.com/mafintosh/pump)                                                                         |
+| `pumpify`                | `2.0.1`    | Mathias Buus         | [https://github.com/mafintosh/pumpify](https://github.com/mafintosh/pumpify)                                                                   |
+| `queue-microtask`        | `1.2.3`    | Feross Aboukhadijeh  | [https://github.com/feross/queue-microtask](https://github.com/feross/queue-microtask)                                                         |
+| `readable-stream`        | `3.6.0`    |                      | [https://github.com/nodejs/readable-stream](https://github.com/nodejs/readable-stream)                                                         |
+| `retry-request`          | `4.1.3`    | Stephen Sawchuk      | [https://github.com/stephenplusplus/retry-request](https://github.com/stephenplusplus/retry-request)                                           |
+| `retry`                  | `0.12.0`   | Tim Koschützki       | [https://github.com/tim-kos/node-retry](https://github.com/tim-kos/node-retry)                                                                 |
+| `reusify`                | `1.0.4`    | Matteo Collina       | [https://github.com/mcollina/reusify](https://github.com/mcollina/reusify)                                                                     |
+| `run-parallel`           | `1.2.0`    | Feross Aboukhadijeh  | [https://github.com/feross/run-parallel](https://github.com/feross/run-parallel)                                                               |
+| `safe-buffer`            | `5.1.2`    | Feross Aboukhadijeh  | [https://github.com/feross/safe-buffer](https://github.com/feross/safe-buffer)                                                                 |
+| `safe-buffer`            | `5.2.1`    | Feross Aboukhadijeh  | [https://github.com/feross/safe-buffer](https://github.com/feross/safe-buffer)                                                                 |
+| `safer-buffer`           | `2.1.2`    | Nikita Skovoroda     | [https://github.com/ChALkeR/safer-buffer](https://github.com/ChALkeR/safer-buffer)                                                             |
+| `shell-quote`            | `1.7.2`    | James Halliday       | [https://github.com/substack/node-shell-quote](https://github.com/substack/node-shell-quote)                                                   |
+| `snakecase-keys`         | `3.2.1`    | Ben Drucker          | [https://github.com/bendrucker/snakecase-keys](https://github.com/bendrucker/snakecase-keys)                                                   |
+| `snakeize`               | `0.1.0`    | James Halliday       | [https://github.com/nathan7/snakeize](https://github.com/nathan7/snakeize)                                                                     |
+| `stream-events`          | `1.0.5`    | Stephen Sawchuk      | [https://github.com/stephenplusplus/stream-events](https://github.com/stephenplusplus/stream-events)                                           |
+| `stream-shift`           | `1.0.1`    | Mathias Buus         | [https://github.com/mafintosh/stream-shift](https://github.com/mafintosh/stream-shift)                                                         |
+| `string_decoder`         | `1.3.0`    |                      | [https://github.com/nodejs/string_decoder](https://github.com/nodejs/string_decoder)                                                           |
+| `stubs`                  | `3.0.0`    | Stephen Sawchuk      | [https://github.com/stephenplusplus/stubs](https://github.com/stephenplusplus/stubs)                                                           |
+| `through2`               | `4.0.2`    | Rod Vagg             | [https://github.com/rvagg/through2](https://github.com/rvagg/through2)                                                                         |
+| `tmp`                    | `0.2.1`    | KARASZI István       | [https://github.com/raszi/node-tmp](https://github.com/raszi/node-tmp)                                                                         |
+| `to-no-case`             | `1.0.2`    |                      | [https://github.com/ianstormtaylor/to-no-case](https://github.com/ianstormtaylor/to-no-case)                                                   |
+| `to-regex-range`         | `5.0.1`    | Jon Schlinkert       | [https://github.com/micromatch/to-regex-range](https://github.com/micromatch/to-regex-range)                                                   |
+| `to-snake-case`          | `1.0.0`    |                      | [https://github.com/ianstormtaylor/to-snake-case](https://github.com/ianstormtaylor/to-snake-case)                                             |
+| `to-space-case`          | `1.0.0`    |                      | [https://github.com/ianstormtaylor/to-space-case](https://github.com/ianstormtaylor/to-space-case)                                             |
+| `type-fest`              | `0.20.2`   | Sindre Sorhus        | [https://github.com/sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)                                                         |
+| `typedarray-to-buffer`   | `3.1.5`    | Feross Aboukhadijeh  | [https://github.com/feross/typedarray-to-buffer](https://github.com/feross/typedarray-to-buffer)                                               |
+| `unique-string`          | `2.0.0`    | Sindre Sorhus        | [https://github.com/sindresorhus/unique-string](https://github.com/sindresorhus/unique-string)                                                 |
+| `util-deprecate`         | `1.0.2`    | Nathan Rajlich       | [https://github.com/TooTallNate/util-deprecate](https://github.com/TooTallNate/util-deprecate)                                                 |
+| `uuid`                   | `3.4.0`    |                      | [https://github.com/uuidjs/uuid](https://github.com/uuidjs/uuid)                                                                               |
+| `uuid`                   | `8.3.2`    |                      | [https://github.com/uuidjs/uuid](https://github.com/uuidjs/uuid)                                                                               |
+| `xdg-basedir`            | `4.0.0`    | Sindre Sorhus        | [https://github.com/sindresorhus/xdg-basedir](https://github.com/sindresorhus/xdg-basedir)                                                     |
+| `yocto-queue`            | `0.1.0`    | Sindre Sorhus        | [https://github.com/sindresorhus/yocto-queue](https://github.com/sindresorhus/yocto-queue)                                                     |
 
 #### UNKNOWN
 
 | Name                | Version  | Publisher       | Repository |
 | ------------------- | -------- | --------------- | ---------- |
-| `@atomist/api-cljs` | `0.5.39` | jim@atomist.com |            |
+| `@atomist/api-cljs` | `0.5.44` | jim@atomist.com |            |
 
 ## Contact
 
