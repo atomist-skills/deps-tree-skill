@@ -21,34 +21,34 @@ This page details all runtime dependencies of `@atomist/deps-tree-skill`.
 
 Apache License 2.0 - [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
-| Name                                  | Version         | Publisher             | Repository                                                                                                                       |
-| ------------------------------------- | --------------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| `@atomist/skill-logging`              | `0.2.7-main.70` | Atomist, Inc.         | [https://github.com/atomist-skills/skill-logging](https://github.com/atomist-skills/skill-logging)                               |
-| `@google-cloud/common`                | `3.6.0`         | Google Inc.           | [https://github.com/googleapis/nodejs-common](https://github.com/googleapis/nodejs-common)                                       |
-| `@google-cloud/logging`               | `8.2.0`         | Google Inc.           | [https://github.com/googleapis/nodejs-logging](https://github.com/googleapis/nodejs-logging)                                     |
-| `@google-cloud/paginator`             | `3.0.5`         | Google Inc.           | [https://github.com/googleapis/nodejs-paginator](https://github.com/googleapis/nodejs-paginator)                                 |
-| `@google-cloud/precise-date`          | `2.0.3`         | Google Inc.           | [https://github.com/googleapis/nodejs-precise-date](https://github.com/googleapis/nodejs-precise-date)                           |
-| `@google-cloud/projectify`            | `2.0.1`         | Google Inc.           | [https://github.com/googleapis/nodejs-projectify](https://github.com/googleapis/nodejs-projectify)                               |
-| `@google-cloud/promisify`             | `2.0.3`         | Google Inc.           | [https://github.com/googleapis/nodejs-promisify](https://github.com/googleapis/nodejs-promisify)                                 |
-| `@google-cloud/pubsub`                | `2.11.0`        | Google Inc.           | [https://github.com/googleapis/nodejs-pubsub](https://github.com/googleapis/nodejs-pubsub)                                       |
-| `@google-cloud/storage`               | `5.8.4`         | Google Inc.           | [https://github.com/googleapis/nodejs-storage](https://github.com/googleapis/nodejs-storage)                                     |
-| `@grpc/grpc-js`                       | `1.2.12`        | Google Inc.           | [https://github.com/grpc/grpc-node/tree/master/packages/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) |
-| `@grpc/proto-loader`                  | `0.5.6`         | Google Inc.           | [https://github.com/grpc/grpc-node](https://github.com/grpc/grpc-node)                                                           |
-| `@opencensus/core`                    | `0.0.22`        | Google Inc.           | [https://github.com/census-instrumentation/opencensus-node](https://github.com/census-instrumentation/opencensus-node)           |
-| `@opencensus/propagation-stackdriver` | `0.0.22`        | OpenCensus Authors    | [https://github.com/census-instrumentation/opencensus-node](https://github.com/census-instrumentation/opencensus-node)           |
-| `@opentelemetry/api`                  | `0.18.1`        | OpenTelemetry Authors | [https://github.com/open-telemetry/opentelemetry-js-api](https://github.com/open-telemetry/opentelemetry-js-api)                 |
-| `@opentelemetry/semantic-conventions` | `0.18.2`        | OpenTelemetry Authors | [https://github.com/open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js)                         |
-| `ecdsa-sig-formatter`                 | `1.0.11`        | D2L Corporation       | [https://github.com/Brightspace/node-ecdsa-sig-formatter](https://github.com/Brightspace/node-ecdsa-sig-formatter)               |
-| `eventid`                             | `1.0.0`         | Google Inc.           | [https://github.com/google/eventid-js](https://github.com/google/eventid-js)                                                     |
-| `fast-text-encoding`                  | `1.0.3`         | Sam Thorogood         | [https://github.com/samthor/fast-text-encoding](https://github.com/samthor/fast-text-encoding)                                   |
-| `gaxios`                              | `4.2.0`         | Google, LLC           | [https://github.com/googleapis/gaxios](https://github.com/googleapis/gaxios)                                                     |
-| `gcp-metadata`                        | `4.2.1`         | Stephen Sawchuk       | [https://github.com/googleapis/gcp-metadata](https://github.com/googleapis/gcp-metadata)                                         |
-| `google-auth-library`                 | `6.1.6`         | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
-| `google-auth-library`                 | `7.0.4`         | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
-| `google-gax`                          | `2.11.2`        | Google API Authors    | [https://github.com/googleapis/gax-nodejs](https://github.com/googleapis/gax-nodejs)                                             |
-| `hex2dec`                             | `1.1.2`         |                       | [https://github.com/donmccurdy/hex2dec](https://github.com/donmccurdy/hex2dec)                                                   |
-| `long`                                | `4.0.0`         | Daniel Wirtz          | [https://github.com/dcodeIO/long.js](https://github.com/dcodeIO/long.js)                                                         |
-| `teeny-request`                       | `7.0.1`         | fhinkel               | [https://github.com/googleapis/teeny-request](https://github.com/googleapis/teeny-request)                                       |
+| Name                                  | Version  | Publisher             | Repository                                                                                                                       |
+| ------------------------------------- | -------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `@atomist/skill-logging`              | `1.0.3`  | Atomist, Inc.         | [https://github.com/atomist-skills/skill-logging](https://github.com/atomist-skills/skill-logging)                               |
+| `@google-cloud/common`                | `3.6.0`  | Google Inc.           | [https://github.com/googleapis/nodejs-common](https://github.com/googleapis/nodejs-common)                                       |
+| `@google-cloud/logging`               | `8.2.0`  | Google Inc.           | [https://github.com/googleapis/nodejs-logging](https://github.com/googleapis/nodejs-logging)                                     |
+| `@google-cloud/paginator`             | `3.0.5`  | Google Inc.           | [https://github.com/googleapis/nodejs-paginator](https://github.com/googleapis/nodejs-paginator)                                 |
+| `@google-cloud/precise-date`          | `2.0.3`  | Google Inc.           | [https://github.com/googleapis/nodejs-precise-date](https://github.com/googleapis/nodejs-precise-date)                           |
+| `@google-cloud/projectify`            | `2.0.1`  | Google Inc.           | [https://github.com/googleapis/nodejs-projectify](https://github.com/googleapis/nodejs-projectify)                               |
+| `@google-cloud/promisify`             | `2.0.3`  | Google Inc.           | [https://github.com/googleapis/nodejs-promisify](https://github.com/googleapis/nodejs-promisify)                                 |
+| `@google-cloud/pubsub`                | `2.11.0` | Google Inc.           | [https://github.com/googleapis/nodejs-pubsub](https://github.com/googleapis/nodejs-pubsub)                                       |
+| `@google-cloud/storage`               | `5.8.4`  | Google Inc.           | [https://github.com/googleapis/nodejs-storage](https://github.com/googleapis/nodejs-storage)                                     |
+| `@grpc/grpc-js`                       | `1.2.12` | Google Inc.           | [https://github.com/grpc/grpc-node/tree/master/packages/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) |
+| `@grpc/proto-loader`                  | `0.5.6`  | Google Inc.           | [https://github.com/grpc/grpc-node](https://github.com/grpc/grpc-node)                                                           |
+| `@opencensus/core`                    | `0.0.22` | Google Inc.           | [https://github.com/census-instrumentation/opencensus-node](https://github.com/census-instrumentation/opencensus-node)           |
+| `@opencensus/propagation-stackdriver` | `0.0.22` | OpenCensus Authors    | [https://github.com/census-instrumentation/opencensus-node](https://github.com/census-instrumentation/opencensus-node)           |
+| `@opentelemetry/api`                  | `0.18.1` | OpenTelemetry Authors | [https://github.com/open-telemetry/opentelemetry-js-api](https://github.com/open-telemetry/opentelemetry-js-api)                 |
+| `@opentelemetry/semantic-conventions` | `0.18.2` | OpenTelemetry Authors | [https://github.com/open-telemetry/opentelemetry-js](https://github.com/open-telemetry/opentelemetry-js)                         |
+| `ecdsa-sig-formatter`                 | `1.0.11` | D2L Corporation       | [https://github.com/Brightspace/node-ecdsa-sig-formatter](https://github.com/Brightspace/node-ecdsa-sig-formatter)               |
+| `eventid`                             | `1.0.0`  | Google Inc.           | [https://github.com/google/eventid-js](https://github.com/google/eventid-js)                                                     |
+| `fast-text-encoding`                  | `1.0.3`  | Sam Thorogood         | [https://github.com/samthor/fast-text-encoding](https://github.com/samthor/fast-text-encoding)                                   |
+| `gaxios`                              | `4.2.0`  | Google, LLC           | [https://github.com/googleapis/gaxios](https://github.com/googleapis/gaxios)                                                     |
+| `gcp-metadata`                        | `4.2.1`  | Stephen Sawchuk       | [https://github.com/googleapis/gcp-metadata](https://github.com/googleapis/gcp-metadata)                                         |
+| `google-auth-library`                 | `6.1.6`  | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
+| `google-auth-library`                 | `7.0.4`  | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
+| `google-gax`                          | `2.11.2` | Google API Authors    | [https://github.com/googleapis/gax-nodejs](https://github.com/googleapis/gax-nodejs)                                             |
+| `hex2dec`                             | `1.1.2`  |                       | [https://github.com/donmccurdy/hex2dec](https://github.com/donmccurdy/hex2dec)                                                   |
+| `long`                                | `4.0.0`  | Daniel Wirtz          | [https://github.com/dcodeIO/long.js](https://github.com/dcodeIO/long.js)                                                         |
+| `teeny-request`                       | `7.0.1`  | fhinkel               | [https://github.com/googleapis/teeny-request](https://github.com/googleapis/teeny-request)                                       |
 
 #### BSD-2-Clause
 
@@ -246,7 +246,7 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 
 | Name                | Version  | Publisher       | Repository |
 | ------------------- | -------- | --------------- | ---------- |
-| `@atomist/api-cljs` | `0.5.44` | jim@atomist.com |            |
+| `@atomist/api-cljs` | `0.5.46` | jim@atomist.com |            |
 
 ## Contact
 
