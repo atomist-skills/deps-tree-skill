@@ -18,7 +18,7 @@ This page details all runtime dependencies of `@atomist/deps-tree-skill`.
 | [GPL-3.0](#gpl-30)              | 1     |
 | [ISC](#isc)                     | 43    |
 | [MIT AND Zlib](#mit-and-zlib)   | 1     |
-| [MIT](#mit)                     | 591   |
+| [MIT](#mit)                     | 590   |
 | [Public Domain](#public-domain) | 1     |
 | [Python-2.0](#python-20)        | 1     |
 | [UNKNOWN](#unknown)             | 1     |
@@ -74,7 +74,7 @@ Apache License 2.0 - [http://www.apache.org/licenses/LICENSE-2.0](http://www.apa
 | `rc`                                  | `1.2.8`          | Dominic Tarr          | [https://github.com/dominictarr/rc](https://github.com/dominictarr/rc)                                                           |
 | `remedial`                            | `1.0.8`          | AJ ONeal              |                                                                                                                                  |
 | `rxjs`                                | `6.6.6`          | Ben Lesh              | [https://github.com/reactivex/rxjs](https://github.com/reactivex/rxjs)                                                           |
-| `teeny-request`                       | `7.0.1`          | fhinkel               | [https://github.com/googleapis/teeny-request](https://github.com/googleapis/teeny-request)                                       |
+| `teeny-request`                       | `7.1.0`          | fhinkel               | [https://github.com/googleapis/teeny-request](https://github.com/googleapis/teeny-request)                                       |
 | `yaml-ast-parser`                     | `0.0.43`         |                       | [https://github.com/mulesoft-labs/yaml-ast-parser](https://github.com/mulesoft-labs/yaml-ast-parser)                             |
 
 #### BSD-2-Clause
@@ -170,7 +170,7 @@ ISC License - [https://www.isc.org/downloads/software-support-policy/isc-license
 | `cliui`                     | `6.0.0`   | Ben Coe            | [https://github.com/yargs/cliui](https://github.com/yargs/cliui)                                             |
 | `cliui`                     | `7.0.4`   | Ben Coe            | [https://github.com/yargs/cliui](https://github.com/yargs/cliui)                                             |
 | `deprecation`               | `2.3.1`   |                    | [https://github.com/gr2m/deprecation](https://github.com/gr2m/deprecation)                                   |
-| `electron-to-chromium`      | `1.3.730` | Kilian Valkhof     | [https://github.com/kilian/electron-to-chromium](https://github.com/kilian/electron-to-chromium)             |
+| `electron-to-chromium`      | `1.3.734` | Kilian Valkhof     | [https://github.com/kilian/electron-to-chromium](https://github.com/kilian/electron-to-chromium)             |
 | `fastq`                     | `1.11.0`  | Matteo Collina     | [https://github.com/mcollina/fastq](https://github.com/mcollina/fastq)                                       |
 | `fs.realpath`               | `1.0.0`   | Isaac Z. Schlueter | [https://github.com/isaacs/fs.realpath](https://github.com/isaacs/fs.realpath)                               |
 | `get-caller-file`           | `2.0.5`   | Stefan Penner      | [https://github.com/stefanpenner/get-caller-file](https://github.com/stefanpenner/get-caller-file)           |
@@ -345,7 +345,7 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 | `@types/lodash`                                      | `4.14.169`     |                                | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                                                             |
 | `@types/long`                                        | `4.0.1`        |                                | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                                                             |
 | `@types/node-fetch`                                  | `2.5.10`       |                                | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                                                             |
-| `@types/node`                                        | `15.3.0`       |                                | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                                                             |
+| `@types/node`                                        | `15.3.1`       |                                | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                                                             |
 | `@types/parse-json`                                  | `4.0.0`        |                                | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                                                             |
 | `@types/pluralize`                                   | `0.0.29`       |                                | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                                                             |
 | `@types/retry`                                       | `0.12.0`       |                                | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                                                                             |
@@ -426,7 +426,6 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 | `convert-source-map`                                 | `1.7.0`        | Thorsten Lorenz                | [https://github.com/thlorenz/convert-source-map](https://github.com/thlorenz/convert-source-map)                                                                                                     |
 | `core-util-is`                                       | `1.0.2`        | Isaac Z. Schlueter             | [https://github.com/isaacs/core-util-is](https://github.com/isaacs/core-util-is)                                                                                                                     |
 | `cosmiconfig-toml-loader`                            | `1.0.0`        | Daniel Rearden                 | [https://github.com/danielrearden/cosmiconfig-toml-loader](https://github.com/danielrearden/cosmiconfig-toml-loader)                                                                                 |
-| `cosmiconfig`                                        | `6.0.0`        | David Clark                    | [https://github.com/davidtheclark/cosmiconfig](https://github.com/davidtheclark/cosmiconfig)                                                                                                         |
 | `cosmiconfig`                                        | `7.0.0`        | David Clark                    | [https://github.com/davidtheclark/cosmiconfig](https://github.com/davidtheclark/cosmiconfig)                                                                                                         |
 | `create-require`                                     | `1.1.1`        |                                | [https://github.com/nuxt-contrib/create-require](https://github.com/nuxt-contrib/create-require)                                                                                                     |
 | `cross-fetch`                                        | `3.0.6`        | Leonardo Quixada               | [https://github.com/lquixada/cross-fetch](https://github.com/lquixada/cross-fetch)                                                                                                                   |
@@ -498,7 +497,7 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 | `globby`                                             | `11.0.3`       | Sindre Sorhus                  | [https://github.com/sindresorhus/globby](https://github.com/sindresorhus/globby)                                                                                                                     |
 | `google-p12-pem`                                     | `3.0.3`        | Ryan Seys                      | [https://github.com/google/google-p12-pem](https://github.com/google/google-p12-pem)                                                                                                                 |
 | `got`                                                | `9.6.0`        |                                | [https://github.com/sindresorhus/got](https://github.com/sindresorhus/got)                                                                                                                           |
-| `graphql-config`                                     | `3.2.0`        | Kamil Kisiela                  | [https://github.com/kamilkisiela/graphql-config](https://github.com/kamilkisiela/graphql-config)                                                                                                     |
+| `graphql-config`                                     | `3.3.0`        | Kamil Kisiela                  | [https://github.com/kamilkisiela/graphql-config](https://github.com/kamilkisiela/graphql-config)                                                                                                     |
 | `graphql-request`                                    | `3.4.0`        | Prisma Labs Team               | [https://github.com/prisma/graphql-request](https://github.com/prisma/graphql-request)                                                                                                               |
 | `graphql-tag`                                        | `2.12.4`       |                                | [https://github.com/apollographql/graphql-tag](https://github.com/apollographql/graphql-tag)                                                                                                         |
 | `graphql-ws`                                         | `4.5.1`        |                                | [https://github.com/enisdenjo/graphql-ws](https://github.com/enisdenjo/graphql-ws)                                                                                                                   |
@@ -562,7 +561,7 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 | `isomorphic-fetch`                                   | `3.0.0`        | Matt Andrews                   | [https://github.com/matthew-andrews/isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch)                                                                                           |
 | `isomorphic-ws`                                      | `4.0.1`        | @heineiuo                      | [https://github.com/heineiuo/isomorphic-ws](https://github.com/heineiuo/isomorphic-ws)                                                                                                               |
 | `iterall`                                            | `1.3.0`        | Lee Byron                      | [https://github.com/leebyron/iterall](https://github.com/leebyron/iterall)                                                                                                                           |
-| `jose`                                               | `3.12.1`       | Filip Skokan                   | [https://github.com/panva/jose](https://github.com/panva/jose)                                                                                                                                       |
+| `jose`                                               | `3.12.2`       | Filip Skokan                   | [https://github.com/panva/jose](https://github.com/panva/jose)                                                                                                                                       |
 | `js-tokens`                                          | `4.0.0`        | Simon Lydell                   | [https://github.com/lydell/js-tokens](https://github.com/lydell/js-tokens)                                                                                                                           |
 | `js-yaml`                                            | `3.14.1`       | Vladimir Zapparov              | [https://github.com/nodeca/js-yaml](https://github.com/nodeca/js-yaml)                                                                                                                               |
 | `js-yaml`                                            | `4.1.0`        | Vladimir Zapparov              | [https://github.com/nodeca/js-yaml](https://github.com/nodeca/js-yaml)                                                                                                                               |
@@ -829,7 +828,7 @@ Python License 2.0 - [https://opensource.org/licenses/Python-2.0](https://openso
 
 | Name                | Version  | Publisher       | Repository |
 | ------------------- | -------- | --------------- | ---------- |
-| `@atomist/api-cljs` | `0.5.62` | jim@atomist.com |            |
+| `@atomist/api-cljs` | `0.5.63` | jim@atomist.com |            |
 
 ## Contact
 
