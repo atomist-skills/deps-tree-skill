@@ -14,10 +14,10 @@ FROM ubuntu:focal@sha256:a15789d24a386e7487a407274b80095c329f89b1f830e8ac6a9323a
 
 # tools
 RUN apt-get update && apt-get install -y \
-        curl \
-        wget \
-        git \
-        && rm -rf /var/lib/apt/lists/*
+    curl=7.68.0-1ubuntu2.5 \
+    git=1:2.25.1-1ubuntu3.1 \
+    wget=1.20.3-1ubuntu1 \
+ && rm -rf /var/lib/apt/lists/*
 
 # node
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - \
