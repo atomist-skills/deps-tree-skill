@@ -10,7 +10,7 @@ RUN npm ci --no-optional && \
     npm run build && \
     rm -rf node_modules .git
 
-FROM ubuntu:focal@sha256:626ffe58f6e7566e00254b638eb7e0f3b11d4da9675088f4781a50ae288f3322
+FROM ubuntu:focal@sha256:bea6d19168bbfd6af8d77c2cc3c572114eb5d113e6f422573c93cb605a0e2ffb
 
 # tools
 RUN apt-get update && apt-get install -y \
